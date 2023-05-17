@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+import os.path
+import sys
+
+if os.path.exists("Inputpy.in"):
+	sys.stdin = open("Inputpy.in", "r")
+	sys.stdout = open("Outputpy.out", "w")
+
+if __name__ == '__main__':
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>py</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
